@@ -3,7 +3,7 @@ version: "3.8"
 services:
   todo-app:
     build: ./
-    command: ./wait_for_postgres.sh db ./todo-app
+    command: ./wait_for_postgres.sh db ./Go-ToDo
     ports:
       - 8000:8000
     depends_on:
